@@ -1,0 +1,67 @@
+body{
+    /* overflow-x: hidden; */
+    background-color: #000201;
+}
+
+.header .navbarh{
+    z-index: 9;
+}
+.header{
+    background-color: #000201;
+
+}
+
+.header .sub-header .logoh3{
+    color: red;
+    /* position: absolute; */
+    /* top: 40vh;
+    left: 2vh; */
+    font-size: xxx-large;
+    font-family: cursive;
+    z-index: 20;
+}
+.header h4{
+    color: #bcb9b4;
+font-size: 20px;
+    /* position: absolute; */
+    /* top: 47vh;
+    left: 2vh; */
+
+}
+.header .bg{
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+ /* background-image: url('assets/images/r8.jpg'); */
+    /* position: absolute;
+    top: 25vh; */
+
+}
+@media (max-width: 576px) { 
+    .header h4{
+        font-size: 14px;
+    }
+  
+ }
+ @media (min-width:577px ) and (max-width: 768px) { 
+    .header h4{
+        font-size: 20px;
+    }
+   
+ }
+ /* @media (min-width: 992px) { 
+    .header h4{
+        font-size: 15px;
+    }
+    .header .bg{
+        width: 100%;
+       }
+ }
+ @media (min-width: 1200px) { 
+    .header h4{
+        font-size: 25px;
+    }
+    .header .bg{
+     width: 100%;
+    }
+ } */
